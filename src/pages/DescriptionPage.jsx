@@ -118,7 +118,11 @@ function DescriptionPage() {
         </div>*/}
       </div>
     ) : (
-      <p>Loading...</p>
+      <div className="loading">
+        <div className="spinner">
+            <p>Loading</p>
+        </div>
+       </div>
     )}
   </div>
 );
