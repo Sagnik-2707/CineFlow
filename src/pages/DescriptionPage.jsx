@@ -96,7 +96,7 @@ function DescriptionPage() {
           id="video"
           width="100%"
           height="500"
-          src={`https://www.youtube.com/embed/${trailer}?autoplay=1&mute=1&start=5`}
+          src={`https://www.youtube.com/embed/${trailer}?autoplay=1&mute=1`}
           title="Movie Trailer"
           frameBorder="0"
           allow="autoplay; fullscreen"
