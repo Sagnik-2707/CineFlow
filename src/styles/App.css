@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   overflow-y: auto;
+  position: relative
 } 
 
 .navbar {
@@ -32,7 +33,10 @@ body {
   font-style: italic;
   cursor: pointer;
 }
+.logo img{
+  height: 4.5rem;
 
+}
 .search-icon {
   font-size: 1.5rem; /* Increase icon size */
   padding: 8px;
@@ -99,6 +103,12 @@ body {
 
 .description {
   padding: 30px;
+}
+
+.banner{
+  height: 100%;
+  width: 100%;
+  position: relative;
 }
 
 #video {

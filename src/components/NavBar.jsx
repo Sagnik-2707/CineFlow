@@ -4,6 +4,7 @@ import '../styles/App.css';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios'; // ⬅️ IMPORTANT
 const TOKEN = import.meta.env.VITE_BEARER_TOKEN;
+import logo from '../assets/logo.png'
 
 function Navbar() {
   const [showInput, setShowInput] = useState(false);
@@ -45,7 +46,9 @@ function Navbar() {
 
   return (
     <nav className="navbar">
-      <div className="logo" onClick={() => navigate(`/`)}>CINEFLOW</div>
+      <div className="logo" onClick={() => {navigate(`/`); window.scrollTo({ top: 0, behavior: "smooth" });}}>
+        <img src={logo}/>
+      </div>
       <div className="search-container">
         {showInput ? (
           <>
