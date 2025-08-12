@@ -9,7 +9,6 @@ function App() {
     <Routes>
       <Route path="/" element={<BrowsePage />} />
       <Route path="/movie/:id" element={<DescriptionPage />} />
-      <Route path="/description/:id" element={<DescriptionPage />} />
     </Routes>
   );
 }
