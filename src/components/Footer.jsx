@@ -15,7 +15,7 @@ function Footer() {
         <p>API</p>
         <p>Corporate Information</p>
     </div>
-    <div className="third column">
+    <div className="third-column">
         <p>Privacy</p>
         <p>Legal Notices</p>
         <p>Cookie Preferences</p>
