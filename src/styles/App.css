@@ -174,3 +174,13 @@ body {
   font-size: 1.2rem;
 }
 
+.footer-class {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+  gap: 30px;
+  padding-left: 100px;
+  padding-top: 30px;
+  background-color: #0b0b0b;
+  color: #ddd;
+  font-family: Arial, sans-serif;
+}
