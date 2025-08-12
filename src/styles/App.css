@@ -4,7 +4,6 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   overflow-y: auto;
-  position: relative
 } 
 
 .navbar {
@@ -105,11 +104,6 @@ body {
   padding: 30px;
 }
 
-.banner{
-  height: 100%;
-  width: 100%;
-  position: relative;
-}
 
 #video {
   position: absolute;
@@ -180,10 +174,7 @@ body {
   100% { transform: rotate(360deg); }
 }
 
-.loading p {
-  font-size: 4rem;
-  font-weight: bold;
-}
+
 
 
 .info{
