@@ -45,7 +45,7 @@ function Navbar() {
 
   return (
     <nav className="navbar">
-      <div className="logo">CINEFLOW</div>
+      <div className="logo" onClick={() => navigate(`/`)}>CINEFLOW</div>
       <div className="search-container">
         {showInput ? (
           <>
@@ -63,16 +63,28 @@ function Navbar() {
             />
             {results.length > 0 && (
               <ul className="search-results">
-                {results.slice(0, 5).map((movie) => (
-                  <li
-                    key={movie.id}
-                    onClick={() => navigate(`/movie/${movie.id}`)}
-                    style={{ cursor: 'pointer' }}
-                  >
-                    {movie.title}
-                  </li>
-                ))}
-              </ul>
+              {results.slice(0, 5).map((movie) => {
+              return (
+              <li
+                className='navabar-li'
+                key={movie.id}
+                onMouseDown={() => navigate(`/movie/${movie.id}`)}
+              >
+                <img
+                  src={`https://image.tmdb.org/t/p/w45${movie.poster_path}`} // smaller TMDB size
+                  alt={movie.original_title}
+                  style={{ borderRadius: '3px', width: '45px', height: 'auto' }}
+                />
+                <span style={{ lineHeight: '1.2' }}>
+                  <strong style={{ fontSize: '0.95rem' }}>{movie.original_title}</strong>
+                  <span style={{ fontSize: '0.8rem', color: '#666' }}>
+                    {new Date(movie.release_date).getFullYear()}
+                  </span>
+                </span>
+              </li>
+
+                );
+             })}                 </ul>
             )}
           </>
         ) : (
