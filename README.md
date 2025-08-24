@@ -1,12 +1,45 @@
-# React + Vite
+# 🎬 CineFlow  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**CineFlow** is a Netflix-style movie browsing application built with **React**.  
+It allows users to **discover movies, search by title, and explore detailed descriptions** with a clean, responsive, and cinematic interface.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features  
+- 🎥 **Browse Movies** – Netflix-style grid of trending and popular movies  
+- 🔎 **Search Functionality** – Search for movies by title  
+- 📖 **Movie Details Page** – Get full descriptions, release date, and ratings  
+- 🖥️ **Responsive UI** – Optimized for desktop, tablet, and mobile  
+- 🚀 **Fast Routing** – Smooth navigation between Browse and Description pages  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Future Developments  
+- ⭐ Add **Favorites / Watchlist** feature  
+- 📺 Add **TV Shows & Web Series** alongside movies  
+- 🎞️ Movie **trailers preview** integration  
+- 🎭 **Genre-based filters & sorting**  
+- 🌙 Dark/Light mode toggle  
+- 👤 User authentication for a personalized experience  
+
+---
+
+## 🛠️ Tech Stack  
+- ⚛️ **React** (Frontend Framework)  
+- 🌐 **React Router** (Navigation & Routing)  
+- ⚡ **Vite** (Development & Bundling)  
+- 🎨 **Tailwind CSS / Custom CSS** (Styling)  
+- 🎬 **TMDB API (The Movie Database)** – Real movie data  
+- 🟢 **Node.js** (for backend, if extended in future)  
+
+---
+
+## 📖 Getting Started  
+
+Clone the repository and run the following commands:  
+
+```bash
+git clone <repo-url>
+cd CineFlow
+npm install
+npm run dev
