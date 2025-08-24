@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import MovieRow from '../components/MovieRow';
-import Navbar from '../components/NavBar';
+import NavBar from '../components/NavBar';
 import Banner from '../components/Banner';
 import Footer from '../components/Footer';
 
@@ -85,7 +85,7 @@ function BrowsePage() {
 
   return (
     <>
-      <Navbar />
+      <NavBar />
       <Banner/>
       <MovieRow title="Trending Now" movies={trending} />
       <MovieRow title="Top Rated" movies={topRated} />

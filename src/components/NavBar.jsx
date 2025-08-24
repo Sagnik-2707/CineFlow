@@ -6,7 +6,7 @@ import axios from 'axios'; // ⬅️ IMPORTANT
 const TOKEN = import.meta.env.VITE_BEARER_TOKEN;
 import logo from '../assets/logo.png'
 
-function Navbar() {
+function NavBar() {
   const [showInput, setShowInput] = useState(false);
   const [searchText, setSearchText] = useState('');
   const [results, setResults] = useState([]);
@@ -102,4 +102,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default NavBar;
