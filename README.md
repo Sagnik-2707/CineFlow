@@ -6,10 +6,10 @@ It allows users to **discover movies, search by title, and explore detailed desc
 ---
 
 ## ✨ Features  
-- 🎥 **Browse Movies** – Netflix-style grid of trending and popular movies  
+- 🎥 **Browse Movies** – Netflix-style grid of trending and most rated movies, along with separate filtering of other genres.
 - 🔎 **Search Functionality** – Search for movies by title  
-- 📖 **Movie Details Page** – Get full descriptions, release date, and ratings  
-- 🖥️ **Responsive UI** – Optimized for desktop, tablet, and mobile  
+- 📖 **Movie Details Page** – Play trailers and get full descriptions, release date, and ratings  
+- 🖥️ **Responsive UI** – Optimized for desktop, tablet, and mobile, uses seperate fonts for displaying movie titles of different genres 
 - 🚀 **Fast Routing** – Smooth navigation between Browse and Description pages  
 
 ---
@@ -18,7 +18,7 @@ It allows users to **discover movies, search by title, and explore detailed desc
 - ⭐ Add **Favorites / Watchlist** feature  
 - 📺 Add **TV Shows & Web Series** alongside movies  
 - 🎞️ Movie **trailers preview** integration  
-- 🎭 **Genre-based filters & sorting**  
+- 🎭 AI recommendations for users based on search patterns
 - 🌙 Dark/Light mode toggle  
 - 👤 User authentication for a personalized experience  
 
