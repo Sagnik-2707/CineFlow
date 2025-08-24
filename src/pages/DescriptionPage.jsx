@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import axios from 'axios';
-import Navbar from '../components/Navbar';
+import NavBar from '../components/NavBar';
 
 const TOKEN = import.meta.env.VITE_BEARER_TOKEN;
 
@@ -88,7 +88,7 @@ function DescriptionPage() {
   
  return (
   <div>
-    <Navbar />
+    <NavBar />
     {trailer ? (
       <div className="video-wrapper">
         {/* Trailer iframe */}
