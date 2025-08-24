@@ -28,7 +28,7 @@ It allows users to **discover movies, search by title, and explore detailed desc
 - ⚛️ **React** (Frontend Framework)  
 - 🌐 **React Router** (Navigation & Routing)  
 - ⚡ **Vite** (Development & Bundling)  
-- 🎨 **Tailwind CSS / Custom CSS** (Styling)  
+- 🎨 Custom CSS** (Styling)  
 - 🎬 **TMDB API (The Movie Database)** – Real movie data  
 - 🟢 **Node.js** (for backend, if extended in future)  
 
